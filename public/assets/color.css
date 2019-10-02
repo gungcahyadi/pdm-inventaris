@@ -1,0 +1,45 @@
+:root{
+	--primary: #12D8FA;
+	--secondary: #1FA2FF;
+}
+/* PRIMARY COLOR */
+
+/* Filter the 'background' value classes*/
+{
+	background-color:  var(--primary);
+}
+
+/* Filter the 'color' value classes*/
+a:hover
+{
+	color:var(--primary);
+}
+
+/* Filter the 'border color' value classes*/
+
+
+{
+	border-color:var(--primary);
+}
+
+/* SECONDARY COLOR */
+
+/* Filter the 'background' value classes*/
+.header
+{
+	background-color:  var(--secondary);
+}
+
+/* Filter the 'color' value classes*/
+.breadcrumb li a:hover,
+.breadcrumb li.active
+{
+	color:var(--secondary);
+}
+
+/* Filter the 'border color' value classes*/
+
+
+{
+	border-color:var(--secondary);
+}
